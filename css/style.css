@@ -1,0 +1,191 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Oswald:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+html {
+  height: 100%;
+}
+
+body {
+  color: #fff;
+  height: 100%;
+  background: url(../img/fon.jpg) 0 0/cover, no-repeat;
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+header h1 {
+  font-family: "Caveat";
+  font-size: 150px;
+}
+header h1 span {
+  font-family: "Oswald";
+  font-size: 70px;
+}
+header img {
+  width: 80%;
+  max-width: 700px;
+}
+
+.wrapper {
+  padding: 20px;
+  font-size: 60px;
+  font-family: "Oswald";
+  text-align: center;
+  line-height: 80px;
+}
+.wrapper .itog {
+  padding: 0 0 50px 0;
+}
+.wrapper .itog .aktu {
+  font-size: 40px;
+  padding: 0 300px 0 0;
+}
+.wrapper .itog .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.wrapper .itog .flex .block2 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 30%;
+          flex: 1 0 30%;
+}
+.wrapper .itog .flex .block1 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 40%;
+          flex: 0 1 40%;
+}
+.wrapper .itog__itog {
+  font-size: 70px;
+}
+.wrapper .itog__shapka .yuriy {
+  background-color: rgba(73, 255, 255, 0.2);
+}
+.wrapper .itog__shapka .daria {
+  background-color: rgba(255, 255, 0, 0.4);
+}
+.wrapper .itog__ost .yuriy1 {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.wrapper .itog__ost .daria1 {
+  background-color: rgba(215, 230, 230, 0.4);
+}
+.wrapper .history {
+  font-family: "Caveat";
+}
+.wrapper h2 {
+  font-size: 110px;
+  padding: 0 0 40px 0;
+}
+.wrapper .grid__body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 1fr 1fr 1fr 1fr;
+  grid-template-columns: 20% 1fr 1fr 1fr 1fr;
+  font-size: 50px;
+}
+.wrapper .grid__item_2 {
+  grid-column-start: span 2;
+}
+.wrapper .grid__item_3 {
+  grid-column-start: span 2;
+}
+
+.minus {
+  background-color: rgba(73, 255, 0, 0.4);
+}
+
+.plus {
+  background-color: rgba(255, 0, 0, 0.4);
+}
+
+.zero {
+  background-color: rgba(255, 255, 0, 0.4);
+}
+
+.yuriy {
+  background-color: rgba(73, 255, 255, 0.2);
+}
+
+.daria {
+  background-color: rgba(255, 255, 0, 0.4);
+}
